@@ -1,0 +1,38 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+**/build/
+**/dist/
+**/.gradle/
+**/android/app/build/
+__pycache__/
+
+# Release artifacts
+versions/
+*.apk
+*.ipk
+
+# Third-party material (decompiled/reverse-engineered apps) - never commit
+apk_decoded/
+reverse_engineered/
+sportzx-android/
+
+# Legacy app superseded by libretv-capacitor/
+sportzx-capacitor/
+
+# Captured sessions, tokens and traffic (secrets)
+cf_cookies.json
+captured_urls.jsonl
+*.log
+
+# Generated channel dumps
+all_channels.json
+final_channels.json
+categorized_channels.json
+
+# Local tooling
+.mimocode/
+
+# Captured playlists (third-party stream URLs with tokens)
+*.m3u
+channels_active.json

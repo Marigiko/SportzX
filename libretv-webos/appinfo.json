@@ -1,0 +1,28 @@
+{
+	"id": "com.libretv.webos",
+	"version": "1.1.0",
+	"type": "web",
+	"title": "LibreTV",
+	"main": "index.html",
+	"icon": "resources/icon.png",
+	"largeIcon": "resources/largeIcon.png",
+	"iconColor": "#00a4dc",
+	"requiredPermissions": [
+		"time.query",
+		"media.operation",
+		"audio.operation"
+	],
+	"resolution": "1920x1080",
+	"enablePrelaunch": false,
+	"transparent": false,
+	"bgColor": "#000000",
+	"defaultLocale": "en-US",
+	"supportPhysicalKeyboard": false,
+	"viewableFileSyncEnabled": false,
+	"dialAppName": "",
+	"disableBackHistoryAPI": false,
+	"handleExternalLink": false,
+	"enact": {
+		"theme": "limestone"
+	}
+}
